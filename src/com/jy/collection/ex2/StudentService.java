@@ -36,13 +36,18 @@ public class StudentService {
 	//studentDelete 
 	//이름을 입력해서 해당 학생을 삭제
 	
+	// public void studentDlete(Array<Student>students, Student student){
+	//students.remove(student);}
+	
 	public Student sudentDelete(ArrayList<Student>students) {
 		System.out.println("삭제할 학생 이름 입력");
 		String irum =sc.next();
 		Student student1 =null;
+		//String msg ="Delete Fail";
 		for(int i=0;i<students.size();i++) {
 			if(students.get(i).getName().equals(irum)) {
 				student1 = students.remove(i);
+				//msg="Delete Fail";
 				break;
 			}
 				

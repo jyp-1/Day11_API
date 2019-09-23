@@ -14,4 +14,3 @@ public class WeatherMenu {
 
 
 
-//전화번호부 만들어보기(시간 남으면)
