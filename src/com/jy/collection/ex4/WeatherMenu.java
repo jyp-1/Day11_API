@@ -53,7 +53,7 @@ public class WeatherMenu {
 				break;
 
 			case 4:
-				Weather weather = weatherService.findWeather(hm);
+				weather = weatherService.findWeather(hm);
 				if (weather != null) {
 					weatherView.view(weather);
 				} else {
@@ -62,7 +62,7 @@ public class WeatherMenu {
 				break;
 
 			case 5:
-				Weather weather = weatherService.deleteWeather(hm);
+				weather = weatherService.deleteWeather(hm);
 				if (weather != null) {
 					weatherView.view("삭제성공");
 				} else {
